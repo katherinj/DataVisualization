@@ -12,4 +12,4 @@ In this assignment, you are required to build [this](https://github.com/user-att
 3. Deployment:
 * Deploy your website to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL. (How to Deploy React App to GitHub Pages | Step by step.)Links to an external site.
 
-#### Submission: [live github page](https://katherinj.github.io/CS450DataVisualization/assignment1/)
+##### Submission: [live github page](https://katherinj.github.io/CS450DataVisualization/assignment1/)
