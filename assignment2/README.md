@@ -20,8 +20,4 @@ Note: You are not allowed to have any state variables in the child components, n
    
 **3. Deployment:** Deploy your website to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.
 
-**Submission:** Submit the following on Canvas:
-The parent component, all child components, and the CSS file.
-A link to your deployed webpage on GitHub Pages.
-
 ##### Submission: [live github page](https://katherinj.github.io/CS450DataVisualization/assignment2)
