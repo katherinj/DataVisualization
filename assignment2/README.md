@@ -1,3 +1,5 @@
+### Assignment 2: Replicate a website using React
+
 In this assignment, you will utilize state and props in ReactJS to create the r[esume website](https://github.com/user-attachments/files/17061374/Assignment.1.Sample.1.pdf) by breaking it down into 1 parent component and 5 child components. All data will be stored in the parent component (App.js) and passed as props to the child components.
 
 Note: You are not allowed to have any state variables in the child components, nor store any data in them.
