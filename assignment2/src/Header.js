@@ -6,11 +6,11 @@ class Header extends Component {
       <header className="header">
         <div className="left">
           <h2>{this.props.name}</h2>
-          <h3 className="light-text">{this.props.title}</h3>
+          <h3 class="light-text">{this.props.title}</h3>
         </div>
         <div className="right">
           <p>
-            Email: <a href="mailto:abc@gmail.com">{this.props.email}</a>
+            Email: <a href={`mailto:${this.props.email}`}>{this.props.email}</a>
           </p>
           <p>Web: {this.props.web}</p>
           <p>Mobile:{this.props.mobile}</p>

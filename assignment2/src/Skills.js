@@ -4,7 +4,6 @@ class Skills extends Component {
   constructor(props) {
     super(props);
   }
-
   render() {
     return (
       <section class="box">
@@ -12,21 +11,13 @@ class Skills extends Component {
           <h2>Key Skills</h2>
         </div>
         <div class="description column">
-          <ul class="key-skills">
-            <li>A Key skill</li>
-            <li>A Key skill</li>
-            <li>A Key skill</li>
-          </ul>
-          <ul class="key-skills">
-            <li>A Key skill</li>
-            <li>A Key skill</li>
-            <li>A Key skill</li>
-          </ul>
-          <ul class="key-skills">
-            <li>A Key skill</li>
-            <li>A Key skill</li>
-            <li>A Key skill</li>
-          </ul>
+          {this.props.keySkills.map((col) => (
+            <ul class="key-skills">
+              {col.map((keySkill) => (
+                <li>{keySkill}</li>
+              ))}
+            </ul>
+          ))}
         </div>
       </section>
     );

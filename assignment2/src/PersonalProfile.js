@@ -11,12 +11,7 @@ class PersonalProfile extends Component {
           <h2>Personal Profile</h2>
         </div>
         <div className="description">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-            doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-            enim adminim veniam, quis nostrud exercitation ullamco laboris nisi
-            ut aliquip ex ea commodo consequat.
-          </p>
+          <p>{this.props.personalProfile}</p>
         </div>
       </section>
     );

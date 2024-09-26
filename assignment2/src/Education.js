@@ -11,18 +11,18 @@ class Education extends Component {
           <h2>Education</h2>
         </div>
         <div className="description">
-          <div className="smallerbox">
-            <h3>New Jersey Institute of Technology</h3>
-            <p>BS in Computer Science</p>
-            <p>2018 - 2022</p>
-            <p>GPA: 3.9</p>
-          </div>
-          <div className="smallerbox">
-            <h3>New Jersey Institute of Technology</h3>
-            <p>MS in Computer Science</p>
-            <p>2022 - 2023</p>
-            <p>GPA: 4.0</p>
-          </div>
+          {this.props.education.map((education) => (
+            <div className="smallerbox">
+              <h3>{education.institution}</h3>
+              <p>
+                {education.degree} in {education.major}
+              </p>
+              <p>
+                {education.startDate} - {education.endDate}
+              </p>
+              <p>GPA: {education.gpa}</p>
+            </div>
+          ))}
         </div>
       </section>
     );
