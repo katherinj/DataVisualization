@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/CS450DataVisualization/assignment2/static/css/main.26d1076b.css",
-    "main.js": "/CS450DataVisualization/assignment2/static/js/main.cccc0b24.js",
-    "static/js/453.ad6eb26e.chunk.js": "/CS450DataVisualization/assignment2/static/js/453.ad6eb26e.chunk.js",
-    "index.html": "/CS450DataVisualization/assignment2/index.html",
-    "main.26d1076b.css.map": "/CS450DataVisualization/assignment2/static/css/main.26d1076b.css.map",
-    "main.cccc0b24.js.map": "/CS450DataVisualization/assignment2/static/js/main.cccc0b24.js.map",
-    "453.ad6eb26e.chunk.js.map": "/CS450DataVisualization/assignment2/static/js/453.ad6eb26e.chunk.js.map"
+    "main.css": "/DataVisualization/assignment2/static/css/main.26d1076b.css",
+    "main.js": "/DataVisualization/assignment2/static/js/main.310818fd.js",
+    "static/js/453.ad6eb26e.chunk.js": "/DataVisualization/assignment2/static/js/453.ad6eb26e.chunk.js",
+    "index.html": "/DataVisualization/assignment2/index.html",
+    "main.26d1076b.css.map": "/DataVisualization/assignment2/static/css/main.26d1076b.css.map",
+    "main.310818fd.js.map": "/DataVisualization/assignment2/static/js/main.310818fd.js.map",
+    "453.ad6eb26e.chunk.js.map": "/DataVisualization/assignment2/static/js/453.ad6eb26e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26d1076b.css",
-    "static/js/main.cccc0b24.js"
+    "static/js/main.310818fd.js"
   ]
 }
