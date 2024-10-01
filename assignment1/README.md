@@ -15,4 +15,4 @@ In this assignment, you are required to build [this](https://github.com/user-att
 
 - Deploy your website to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.
 
-##### Submission: [live github page](https://katherinj.github.io/CS450DataVisualization/assignment1/)
+##### Submission: [live github page](https://katherinj.github.io/DataVisualization/assignment1/)

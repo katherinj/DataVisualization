@@ -15,9 +15,9 @@ Note: You are not allowed to have any state variables in the child components, n
 - Education.js (Child component for the education section)
 
 **2. Data Handling:**
-   In the App.js file, create a state object that holds all the data for the resume.
-   Pass the data from App.js to the child components as props.
-   
+In the App.js file, create a state object that holds all the data for the resume.
+Pass the data from App.js to the child components as props.
+
 **3. Deployment:** Deploy your website to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.
 
-##### Submission: [live github page](https://katherinj.github.io/CS450DataVisualization/assignment2)
+##### Submission: [live github page](https://katherinj.github.io/DataVisualization/assignment2)
