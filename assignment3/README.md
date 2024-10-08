@@ -24,15 +24,13 @@ Submit the following on Canvas:
 - A link to your deployed application on GitHub Pages.
 
 **Grading Rubric:**  
-[x] Child1 Component: Scatter Plot of Total Bill vs. Tips (50 Points)  
-[x] Scatter Plot Creation (25 Points)  
-[x] Axis Labels Position and Rotation (15 Points)  
-[x] Title Position (10 Points)  
-[x] Child2 Component: Bar Chart of Average Tips for Each Day (50 Points)  
-[x] Bar Chart Creation (25 Points)  
-[x] Axis Labels Position and Rotation (15 Points)  
-[x] Title Position (10 Points)
+- [x] Child1 Component: Scatter Plot of Total Bill vs. Tips (50 Points)  
+- [x] Scatter Plot Creation (25 Points)  
+- [x] Axis Labels Position and Rotation (15 Points)  
+- [x] Title Position (10 Points)  
+- [x] Child2 Component: Bar Chart of Average Tips for Each Day (50 Points)  
+- [x] Bar Chart Creation (25 Points)  
+- [x] Axis Labels Position and Rotation (15 Points)  
+- [x] Title Position (10 Points)
 
 **_Note:_** Slight deviations in positioning are acceptable as long as they still look visually pleasing. However, significant misalignment will result in a loss of points. The color of the circles and bars should be #69b3a2, though you are free to use any color you prefer.
-
-
