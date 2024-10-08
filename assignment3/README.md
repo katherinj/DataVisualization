@@ -18,11 +18,12 @@ The expected output of the application will be as follows:
 Deploy your application to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.
 
 **Grading Rubric:**  
-- [x] Child1 Component: Scatter Plot of Total Bill vs. Tips (50 Points)  
+Child1 Component: Scatter Plot of Total Bill vs. Tips (50 Points)  
 - [x] Scatter Plot Creation (25 Points)  
 - [x] Axis Labels Position and Rotation (15 Points)  
 - [x] Title Position (10 Points)  
-- [x] Child2 Component: Bar Chart of Average Tips for Each Day (50 Points)  
+  
+Child2 Component: Bar Chart of Average Tips for Each Day (50 Points)  
 - [x] Bar Chart Creation (25 Points)  
 - [x] Axis Labels Position and Rotation (15 Points)  
 - [x] Title Position (10 Points)
