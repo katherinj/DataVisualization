@@ -1,5 +1,6 @@
 ### Assignment 1: Replicate a website using HTML & CSS
-
+##### Submission: [live github page](https://katherinj.github.io/DataVisualization/assignment1/)
+---
 In this assignment, you are required to build [this](https://github.com/user-attachments/files/17061374/Assignment.1.Sample.1.pdf) website using HTML and CSS with a focus on Flexbox layout. Follow these steps to complete the assignment:
 
 **1. Design and Layout:**
@@ -15,4 +16,3 @@ In this assignment, you are required to build [this](https://github.com/user-att
 
 - Deploy your website to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.
 
-##### Submission: [live github page](https://katherinj.github.io/DataVisualization/assignment1/)
