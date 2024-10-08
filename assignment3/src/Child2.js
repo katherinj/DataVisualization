@@ -11,7 +11,7 @@ class Child2 extends Component {
 
     var data = this.props.data2;
 
-    var margin = { top: 50, right: 10, bottom: 30, left: 60 },
+    var margin = { top: 50, right: 40, bottom: 40, left: 60 },
       w = 500 - margin.left - margin.right,
       h = 300 - margin.top - margin.bottom;
 
