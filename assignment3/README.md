@@ -17,12 +17,6 @@ The expected output of the application will be as follows:
 **Deployment:**  
 Deploy your application to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.
 
-**Submission:**  
-Submit the following on Canvas:
-
-- The parent component, all child components, and the CSS file.
-- A link to your deployed application on GitHub Pages.
-
 **Grading Rubric:**  
 - [x] Child1 Component: Scatter Plot of Total Bill vs. Tips (50 Points)  
 - [x] Scatter Plot Creation (25 Points)  
