@@ -1,7 +1,7 @@
-### Assignment 3:
+### Assignment 3: Data Visualization with React and CSV Integration
 
 In a React project, create two child components named Child1 and Child2.
-Load the ![tips.csv](./public/assets/tips.csv) dataset within the App component and pass the data to the child components via props.
+Load the [tips.csv](./public/assets/tips.csv) dataset within the App component and pass the data to the child components via props.
 
 **Child1 Component:**
 Create a scatter plot of total bill vs tips that includes axis labels and a title.
@@ -11,7 +11,7 @@ Create a bar chart to display the average tips for each day, also including axis
 
 The expected output of the application will be as follows:
 
-![Expected output](./public/assets/expectedOutput.jpg)
+![Expected output](./public/assets/expectedOutput.png)
 
 **Deployment:**  
 Deploy your application to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.\
