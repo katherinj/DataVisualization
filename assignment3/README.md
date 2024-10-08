@@ -1,4 +1,5 @@
 ### Assignment 3: Data Visualization with React and CSV Integration
+##### Submission: [live github page](https://katherinj.github.io/DataVisualization/assignment3)  
 
 In a React project, create two child components named Child1 and Child2.
 Load the [tips.csv](./public/assets/tips.csv) dataset within the App component and pass the data to the child components via props.
@@ -33,3 +34,5 @@ Submit the following on Canvas:
 [x] Title Position (10 Points)
 
 **_Note:_** Slight deviations in positioning are acceptable as long as they still look visually pleasing. However, significant misalignment will result in a loss of points. The color of the circles and bars should be #69b3a2, though you are free to use any color you prefer.
+
+
