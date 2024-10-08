@@ -14,7 +14,7 @@ The expected output of the application will be as follows:
 ![Expected output](./public/assets/expectedOutput.png)
 
 **Deployment:**  
-Deploy your application to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.\
+Deploy your application to GitHub Pages. Ensure that the webpage is accessible online through a GitHub Pages URL.
 
 **Submission:**  
 Submit the following on Canvas:
