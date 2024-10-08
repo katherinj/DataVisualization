@@ -1,6 +1,6 @@
 ### Assignment 3: Data Visualization with React and CSV Integration
 ##### Submission: [live github page](https://katherinj.github.io/DataVisualization/assignment3)  
-
+---
 In a React project, create two child components named Child1 and Child2.
 Load the [tips.csv](./public/assets/tips.csv) dataset within the App component and pass the data to the child components via props.
 
