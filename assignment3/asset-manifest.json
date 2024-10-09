@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/DataVisualization/assignment2/static/css/main.26d1076b.css",
-    "main.js": "/DataVisualization/assignment2/static/js/main.310818fd.js",
-    "static/js/453.ad6eb26e.chunk.js": "/DataVisualization/assignment2/static/js/453.ad6eb26e.chunk.js",
-    "index.html": "/DataVisualization/assignment2/index.html",
-    "main.26d1076b.css.map": "/DataVisualization/assignment2/static/css/main.26d1076b.css.map",
-    "main.310818fd.js.map": "/DataVisualization/assignment2/static/js/main.310818fd.js.map",
-    "453.ad6eb26e.chunk.js.map": "/DataVisualization/assignment2/static/js/453.ad6eb26e.chunk.js.map"
+    "main.css": "/DataVisualization/assignment3/static/css/main.cdc11e0a.css",
+    "main.js": "/DataVisualization/assignment3/static/js/main.be7f63d6.js",
+    "static/media/tips.csv": "/DataVisualization/assignment3/static/media/tips.43007c7e472255eef549.csv",
+    "index.html": "/DataVisualization/assignment3/index.html",
+    "main.cdc11e0a.css.map": "/DataVisualization/assignment3/static/css/main.cdc11e0a.css.map",
+    "main.be7f63d6.js.map": "/DataVisualization/assignment3/static/js/main.be7f63d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.26d1076b.css",
-    "static/js/main.310818fd.js"
+    "static/css/main.cdc11e0a.css",
+    "static/js/main.be7f63d6.js"
   ]
 }
