@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/DataVisualization/assignment3/static/css/main.cdc11e0a.css",
-    "main.js": "/DataVisualization/assignment3/static/js/main.be7f63d6.js",
+    "main.js": "/DataVisualization/assignment3/static/js/main.bfbc952f.js",
     "static/media/tips.csv": "/DataVisualization/assignment3/static/media/tips.43007c7e472255eef549.csv",
     "index.html": "/DataVisualization/assignment3/index.html",
     "main.cdc11e0a.css.map": "/DataVisualization/assignment3/static/css/main.cdc11e0a.css.map",
-    "main.be7f63d6.js.map": "/DataVisualization/assignment3/static/js/main.be7f63d6.js.map"
+    "main.bfbc952f.js.map": "/DataVisualization/assignment3/static/js/main.bfbc952f.js.map"
   },
   "entrypoints": [
     "static/css/main.cdc11e0a.css",
-    "static/js/main.be7f63d6.js"
+    "static/js/main.bfbc952f.js"
   ]
 }
