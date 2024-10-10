@@ -11,7 +11,7 @@ class Child2 extends Component {
 
     var data = this.props.data2;
 
-    var margin = { top: 50, right: 40, bottom: 40, left: 60 },
+    const margin = { top: 50, right: 40, bottom: 50, left: 30 },
       w = 500 - margin.left - margin.right,
       h = 300 - margin.top - margin.bottom;
 
@@ -83,7 +83,7 @@ class Child2 extends Component {
       .attr("x", w / 2 + margin.left)
       .attr("y", h + margin.top + 30)
       .attr("text-anchor", "middle")
-      .style("font-size", "12px")
+      .style("font-size", "14px")
       .text("Day");
 
     d3.select(".child2_svg")
@@ -92,10 +92,10 @@ class Child2 extends Component {
       .join("text")
       .attr("class", "y_axis_label")
       .attr("x", -h / 2 - margin.top)
-      .attr("y", margin.left + 20)
+      .attr("y", margin.left - 5)
       .attr("transform", "rotate(-90)")
       .attr("text-anchor", "middle")
-      .style("font-size", "12px")
+      .style("font-size", "14px")
       .text("Average Tip");
   }
   render() {
