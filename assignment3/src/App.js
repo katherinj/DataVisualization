@@ -29,15 +29,18 @@ class App extends Component {
   }
 
   calcAvgTipsPerDay(data) {
-    const days = d3.group(data, (d) => d.day);
+    const flat_data = d3.flatRollup(
+      data,
+      (v) => d3.mean(v, (d) => d.tip),
+      (d) => d.day
+    );
+    console.log("Flat data: ", flat_data);
 
-    const avgTipsPerDay = Array.from(days, ([day, values]) => {
-      const totalTips = d3.sum(values, (d) => d.tip);
-      const avgTip = totalTips / values.length;
-      return { day, avgTip };
-    });
-
-    return avgTipsPerDay;
+    const result = flat_data.map(([day, avgTip]) => ({
+      day: day,
+      avgTip: avgTip,
+    }));
+    return result;
   }
 
   render() {
