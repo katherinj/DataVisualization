@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/DataVisualization/assignment3/static/css/main.cdc11e0a.css",
+    "main.js": "/DataVisualization/assignment3/static/js/main.00ea8387.js",
+    "static/media/tips.csv": "/DataVisualization/assignment3/static/media/tips.43007c7e472255eef549.csv",
+    "index.html": "/DataVisualization/assignment3/index.html",
+    "main.cdc11e0a.css.map": "/DataVisualization/assignment3/static/css/main.cdc11e0a.css.map",
+    "main.00ea8387.js.map": "/DataVisualization/assignment3/static/js/main.00ea8387.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdc11e0a.css",
+    "static/js/main.00ea8387.js"
+  ]
+}
