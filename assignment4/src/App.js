@@ -176,8 +176,42 @@ class App extends Component {
     const data = this.state.wordFrequency
       .sort((a, b) => b[1] - a[1])
       .slice(0, 5);
-    console.log(data);
+
     // your code here
+    var container = d3
+      .select(".child2")
+      .select(".svg_parent")
+      .attr("width", 800);
+
+    container
+      .selectAll("text")
+      .data(data, (d) => d[0])
+      .join(
+        (enter) =>
+          enter
+            .append("text")
+            .attr("x", (d, i) => i * 150)
+            .attr("y", 100)
+            .attr("font-size", 0)
+            .text((d) => d[0])
+            .style("font-weight", "bold")
+            .call((enter) =>
+              enter
+                .transition()
+                .duration(2000)
+                .attr("x", (d, i) => i * 150)
+                .attr("font-size", (d) => d[1] * 3 + 10)
+            ),
+        (update) =>
+          update.call((update) =>
+            update
+              .transition()
+              .duration(2000)
+              .attr("x", (d, i) => i * 150)
+              .attr("font-size", (d) => d[1] * 3 + 10)
+          ),
+        (exit) => exit.call((exit) => exit.transition().duration(500).remove())
+      );
   }
 
   render() {
@@ -198,9 +232,9 @@ class App extends Component {
               this.setState({
                 wordFrequency: this.getWordFrequency(input_data),
               });
+              this.renderChart();
             }}
           >
-            {" "}
             Generate WordCloud
           </button>
         </div>
