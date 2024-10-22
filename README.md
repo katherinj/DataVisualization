@@ -17,3 +17,9 @@
 ### Assignment 3: Data Visualization with React and CSV Integration
 
 ##### Submission: [live github page](https://katherinj.github.io/DataVisualization/assignment3/)
+
+---
+
+### Assignment 4: Word Cloud
+
+##### Submission: [live github page](https://katherinj.github.io/DataVisualization/assignment4/)
