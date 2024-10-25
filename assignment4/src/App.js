@@ -7,6 +7,7 @@ class App extends Component {
     super(props);
     this.state = { wordFrequency: [] };
   }
+
   componentDidMount() {
     this.renderChart();
   }
@@ -178,40 +179,45 @@ class App extends Component {
       .slice(0, 5);
 
     // your code here
-    var container = d3
+    const container = d3
       .select(".child2")
       .select(".svg_parent")
-      .attr("width", 800);
+      .attr("width", 900);
 
-    container
-      .selectAll("text")
-      .data(data, (d) => d[0])
-      .join(
-        (enter) =>
-          enter
-            .append("text")
-            .attr("x", (d, i) => i * 150)
-            .attr("y", 100)
-            .attr("font-size", 0)
-            .text((d) => d[0])
-            .style("font-weight", "bold")
-            .call((enter) =>
-              enter
-                .transition()
-                .duration(2000)
-                .attr("x", (d, i) => i * 150)
-                .attr("font-size", (d) => d[1] * 3 + 10)
-            ),
-        (update) =>
-          update.call((update) =>
-            update
-              .transition()
-              .duration(2000)
-              .attr("x", (d, i) => i * 150)
-              .attr("font-size", (d) => d[1] * 3 + 10)
-          ),
-        (exit) => exit.call((exit) => exit.transition().duration(500).remove())
+    const xScale = d3
+      .scaleLinear()
+      .domain([0, data.length - 1])
+      .range([50, 750]);
+
+    const fontScale = d3
+      .scaleLinear()
+      .domain([0, d3.max(data, (d) => d[1])])
+      .range([10, 50]);
+
+    const text = container.selectAll("text").data(data, (d) => d[0]);
+    text
+      .enter()
+      .append("text")
+      .attr("x", (d, i) => xScale(i))
+      .attr("y", 100)
+      .attr("font-size", 0)
+      .text((d) => d[0])
+      .style("font-weight", "bold")
+      .call((enter) =>
+        enter
+          .transition()
+          .duration(2000)
+          .attr("x", (d, i) => xScale(i))
+          .attr("font-size", (d) => fontScale(d[1]))
       );
+
+    text
+      .transition()
+      .duration(2000)
+      .attr("x", (d, i) => xScale(i))
+      .attr("font-size", (d) => fontScale(d[1]));
+
+    text.exit().transition().duration(500).attr("font-size", 0).remove();
   }
 
   render() {
