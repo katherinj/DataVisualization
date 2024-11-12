@@ -1,4 +1,4 @@
-### Assignment 5: Visualizing Stock Price Data
+### Assignment 5: Stock Price Visualizer with D3 and React
 
 ##### Submission: [live github page](https://katherinj.github.io/DataVisualization/assignment5)
 
