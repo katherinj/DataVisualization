@@ -19,6 +19,7 @@ The component should have the following states:
 
 - [ ] company: String storing the selected company (the default should be "Apple").
 - [ ] selectedMonth: String representing the selected month (the default should be "November").
+      The component should have the following interactivity:
 - [ ] Company Selector: Provide radio buttons to select a company. The chart should update when a different company is selected.
 - [ ] Month Selector: Provide a dropdown menu to select a month. The chart should display data only for the selected month.
 
