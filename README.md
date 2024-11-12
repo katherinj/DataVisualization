@@ -23,3 +23,9 @@
 ### Assignment 4: Word Cloud
 
 ##### Submission: [live github page](https://katherinj.github.io/DataVisualization/assignment4/)
+
+---
+
+### Assignment 5: Visualizing Stock Price Data
+
+##### Submission: [live github page](https://katherinj.github.io/DataVisualization/assignment5/)
