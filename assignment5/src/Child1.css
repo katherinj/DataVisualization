@@ -1,0 +1,24 @@
+.child1 {
+  width: 100%;
+}
+
+.option-radio-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.option-button {
+  display: flex;
+}
+
+.option-button label,
+.months-dropdown select {
+  margin-left: 5px;
+}
+
+.months-dropdown {
+  display: flex;
+  justify-content: center;
+}
